@@ -1,0 +1,29 @@
+body
+{
+    background: #bfc47d;
+}
+table
+{
+    background: #815b5b;
+}
+
+th
+{
+    background: aquamarine;
+}
+
+.first
+{
+    background: #1c1e1d;
+    border: 3px solid #fff;
+    border-top: 5px solid #fd0202;
+    color: white;
+}
+#dd
+{
+    background: #eaea00;
+}
+th
+{
+    background: #e50033;
+}
