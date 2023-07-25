@@ -1,0 +1,71 @@
+
+
+#TEST{
+    color: white;
+    background-color: #fbfb04;
+    border: 2px solid#111;
+    text-align: center;
+    font-size: 26px;
+    font-family: Arial;
+    font-weight: bolder;
+}
+.Finish{
+    background-color: #04f704;
+    text-align: left;
+}
+
+.start{
+    background-color: #9a04f9;
+    text-align: left;
+    color: #29eff6;
+}
+
+.twoall{
+    background-color: #fbfb04;
+    color: white;
+    text-align: center;
+    padding-top: 33px;
+    font-size: 14px;
+    font-family: Arial;
+}
+.red1{
+    background-color: #f30404;
+    border: 2px solid #d20000;
+}
+
+.first{
+    background-color: #709ee6;
+    color: black;
+    text-align: right;
+    width: 70px;
+    border: 2px solid #111;
+    font-size: 12px;
+}
+.forall{
+    text-align: -webkit-center;
+    font-size: 24px;
+    border: 2px solid #111;
+    padding-top: 13px;
+    font-family: Impact;
+}
+.empty1{
+    border: 2px solid #111;
+}
+
+.empty2{
+    border: 2px solid #111;
+}
+
+.STAR{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: normal;
+}
+.T{
+    font-size: 12px;
+}
+
+.SH{
+    font-size: 12px;
+    color: white;
+}
