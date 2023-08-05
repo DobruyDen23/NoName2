@@ -3,11 +3,9 @@
 #TEST{
     color: white;
     background-color: #fbfb04;
-    border: 2px solid#111;
+    border: 2px solid#111 !important;
     text-align: center;
-    font-size: 26px;
-    font-family: Arial;
-    font-weight: bolder;
+    font: 26px Arial bolder;
 }
 .Finish{
     background-color: #04f704;
@@ -25,8 +23,7 @@
     color: white;
     text-align: center;
     padding-top: 33px;
-    font-size: 14px;
-    font-family: Arial;
+    font: 14px Arial;
 }
 .red1{
     background-color: #f30404;
@@ -38,15 +35,14 @@
     color: black;
     text-align: right;
     width: 70px;
-    border: 2px solid #111;
+    border: 2px solid #111 !important;
     font-size: 12px;
 }
 .forall{
     text-align: -webkit-center;
-    font-size: 24px;
-    border: 2px solid #111;
+    font: 24px Impact;
+    border: 2px solid #111 !important;
     padding-top: 13px;
-    font-family: Impact;
 }
 .empty1{
     border: 2px solid #111;
@@ -57,9 +53,7 @@
 }
 
 .STAR{
-    font-size: 16px;
-    font-family: Arial;
-    font-weight: normal;
+    font: 16px Arial normal;
 }
 .T{
     font-size: 12px;
