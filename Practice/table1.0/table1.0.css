@@ -1,5 +1,4 @@
 body{
-    border: 3px solid black;
     width: 100%;
     max-width: 1200px;
 }
@@ -9,11 +8,24 @@ body{
     box-sizing: border-box;
 }
 
-.table{
-    margin: 20px 20px;
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
 }
 
-/* Header */
+.table{
+    margin: 20px 20px;
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.dash{
+    border: 3px solid #0000FF;
+    margin: 20px 20px;
+    padding: 10px;
+}
+/* Section*/
 .section__header{
     display: block;
     height: 60px;
@@ -23,6 +35,11 @@ body{
     border: 3px solid black;
 }
 
+.section__up{
+    margin: auto;
+}
+
+/* Header */
 .header__inner{
     display: flex;
     justify-content: space-between;
@@ -102,7 +119,6 @@ body{
 
 
 /* Footer */
-
 .footer{
     margin-top: 20px;
 }
@@ -112,5 +128,249 @@ body{
 }
 
 
+/* Up */
+.up__inner{
+    position: relative;
+
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.section__up:after{
+    content: "";
+    display: block;
+
+    margin: 10px -12px;
+    border: 3px solid #0000FF;
+
+    height: 10px;
+    width: 102%;
+
+}
+
+.up__left{
+    height: 40px;
+    width: 218px;
+    border: 3px solid #0000FF;
+
+    margin-left: 20px;
+}
+.up__center{
+    margin-right: 290px;
+    display: inline-flex;
+    align-items: center;
+}
+
+.up__center--item{
+    height: 25px;
+    width: 60px;
+    border: 3px solid #0000FF;
+    margin-left: 10px;
+}
+
+.elem{
+    height: 24px;
+    width: 79px;
+}
+
+.elem2{
+    height: 26px;
+}
+
+.up__right {
+    height: 35px;
+    width: 220px;
+    border: 3px solid #0000FF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right__first{
+    margin-left: 10px;
+
+    height: 15px;
+    width: 60px;
+    border: 3px solid #0000FF;
+}
+.right__second{
+    margin-right: 20px;
+    height: 10px;
+    width: 40px;
+    border: 3px solid #0000FF;
+}
 
 
+/* Mid */
+
+/* Mid__right */
+
+.mid__inner{
+    display: flex;
+}
+
+.left__slash{
+    height: 330px;
+    width: 30px;
+    border: 3px solid #0000FF
+}
+
+.mid__right{
+    display: flex;
+}
+
+.right__slash{
+    margin-top: -4px;
+    margin-left: 10px;
+
+    height: 334px;
+    width: 90px;
+
+    border: 3px solid #0000FF
+}
+
+
+/* Mid__mid */
+.mid__mid{
+    display: block;
+    margin: 0 auto;
+}
+
+.top__central{
+    height: 270px;
+    width: 750px;
+
+    border: 3px solid #0000FF
+}
+
+.mid__top{
+    display: flex;
+    margin-left: 20px;
+}
+
+.top__right{
+    margin-left: 20px;
+}
+
+.top__fight--first{
+    height: 40%;
+    width: 200px;
+
+    border: 3px solid #0000FF
+}
+
+.top__fight--second{
+    margin-top: 8px;
+    margin-left: 10px;
+
+    height: 56%;
+    width: 190px;
+
+    border: 3px solid #0000FF
+}
+
+
+/* Mid__bottom */
+.mid--bottom__box{
+    padding-left: 15px;
+    margin-top: 15px;
+    padding-bottom: 20px;
+}
+.mid__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    height: 50px;
+    width: 975px;
+
+
+    border: 3px solid #0000FF;
+}
+
+.bottom__box{
+    border: 3px solid #0000FF;
+
+}
+
+.item1{
+    margin-left: 50px;
+    width: 25%;
+    height: 30%;
+}
+
+.item2{
+    margin-bottom: 2px;
+    margin-right: 160px;
+    width: 7%;
+    height: 30%;
+}
+
+.item3{
+    margin-right: 3px;
+    width: 40%;
+    height: 80%;
+}
+
+/* Down*/
+.down__inner{
+    border: 3px solid #0000FF;
+    height: 100px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item{
+    border: 3px solid #0000FF;
+    height: 80%;
+    margin: 10px;
+}
+
+.first,
+.second,
+.third{
+    width: 15%;
+    margin-left: 20px;
+}
+
+.forth{
+    display: flex;
+    justify-content: space-between;
+
+    width: 30%;
+}
+
+.double__line{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.first__line{
+    width: 100px;
+    height: 15px;
+
+    border: 3px solid #0000FF;
+}
+
+.second__line{
+    margin-left: 10px;
+    width: 90px;
+    height: 15px;
+
+    border: 3px solid #0000FF;
+}
+
+.alone__line{
+    margin: auto 15px;
+    height: 40%;
+    width: 50%;
+
+    border: 3px solid #0000FF;
+}
